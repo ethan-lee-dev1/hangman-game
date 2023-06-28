@@ -33,9 +33,7 @@ while num_of_tries > 0 and "_" in current_guess:
     # Enter a letter: 
     guess = input("Enter a letter :")
     # make user input the guess alphabet
-    # for loop to check if alphabet exist in the random_word and get the indeces
-    #get the index of the alphabet
-    # replace the "_" with the alphabet
+ 
         # print Good guess!
     if guess in random_word:
         list_of_correct_guess.append(guess)
