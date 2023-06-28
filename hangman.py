@@ -9,7 +9,6 @@ print(random_word)
 # number of tries is 8
 num_of_tries = 8
 
-
 def replace(str, guess, list):
     result = ""
     for char in str:
@@ -58,15 +57,4 @@ while num_of_tries > 0 and "_" in current_guess:
 if num_of_tries == 0:
     print("Game Over!")
     
-    
-    hangman_pics1 = (
-        '---------\n'
-        '|'
-        '|\n'
-        '|\n'
-        '|\n'
-        '|\n'
-        '-'
-    )
-
     
